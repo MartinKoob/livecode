@@ -21,6 +21,7 @@ settings = {
     'RESERVED_FUNCTION_POINTERS': 1024,
     'TOTAL_MEMORY': 67108864,
     'WARN_ON_UNDEFINED_SYMBOLS': 1,
+    'MAIN_MODULE': 2,
     }
 
 # Get the build type and the compiler command
