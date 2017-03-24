@@ -14,12 +14,12 @@
  You should have received a copy of the GNU General Public License
  along with LiveCode.  If not see <http://www.gnu.org/licenses/>.  */
 
+#include <limits>
+
 #include <foundation.h>
 #include <foundation-auto.h>
 
 #include "foundation-private.h"
-
-#include <limits>
 
 ////////////////////////////////////////////////////////////////////////////////
 

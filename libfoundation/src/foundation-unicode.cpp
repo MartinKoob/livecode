@@ -14,6 +14,8 @@
  You should have received a copy of the GNU General Public License
  along with LiveCode.  If not see <http://www.gnu.org/licenses/>.  */
 
+#include <limits>
+
 #include "foundation-unicode.h"
 #include "foundation-unicode-private.h"
 
@@ -26,8 +28,6 @@
 #include "foundation-auto.h"
 #include "foundation-text.h"
 #include "foundation-string-hash.h"
-
-#include <limits>
 
 
 // This array converts from the MCUnicodeProperty enumeration to the corresponding

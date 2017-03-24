@@ -14,14 +14,14 @@ for more details.
 You should have received a copy of the GNU General Public License
 along with LiveCode.  If not see <http://www.gnu.org/licenses/>.  */
 
+#include <limits>
+
 #include "gtest/gtest.h"
 
 #include "foundation.h"
 #include "foundation-auto.h"
 #include "foundation-unicode.h"
 #include "foundation-system.h"
-
-#include <limits>
 
 static_assert(sizeof(hash_t) == sizeof(uint32_t),
               "Update hash tests for this hash size");
