@@ -33,24 +33,6 @@
 			'conditions':
 			[
 				[
-					'OS == "win"',
-					{
-						'all_dependent_settings':
-						{
-							'msvs_settings':
-							{
-								'VCLinkerTool':
-								{
-									'AdditionalOptions':
-									[
-										'/WHOLEARCHIVE:<(PRODUCT_DIR)/lib/engine_lcb_modules.lib',
-									],
-								},
-							},
-						},
-					},
-				],
-				[
 					'OS == "mac" or OS == "ios"',
 					{
 						'all_dependent_settings':
