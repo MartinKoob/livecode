@@ -28,6 +28,10 @@
 		# Don't assume a Cygwin environment when invoking actions
 		'msvs_cygwin_shell': 0,
 		
+		# Hack to use MSVS 2017
+		"msvs_target_platform_version" : "10.0.14393.0",
+		"msbuild_toolset" : "v141",
+		
 		'configurations':
 		{
 			'Debug':
